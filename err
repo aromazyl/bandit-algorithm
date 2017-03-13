@@ -1,0 +1,14 @@
+____Loading complete.  Analyzing...
+____Found 1 test target...
+____From Linking external/gtest/libmain.so:
+clang: warning: argument unused during compilation: '-pthread'
+____From Linking test:
+clang: warning: argument unused during compilation: '-pthread'
+FAIL: //:test (see /private/var/tmp/_bazel_aromazyl/31d5025219260c1be164e6a62282e738/execroot/bandit-algorithm/bazel-out/local-fastbuild/testlogs/test/test.log)
+Target //:test up-to-date:
+  bazel-bin/test
+____Elapsed time: 2.208s, Critical Path: 2.04s
+//:test                                                                  FAILED in 0.1s
+  /private/var/tmp/_bazel_aromazyl/31d5025219260c1be164e6a62282e738/execroot/bandit-algorithm/bazel-out/local-fastbuild/testlogs/test/test.log
+
+Executed 1 out of 1 test: 1 fails locally.
